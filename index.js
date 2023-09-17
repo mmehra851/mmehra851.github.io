@@ -79,7 +79,7 @@ $(document).ready(function () {
   function openDrive() {
     window.open(
       (href =
-        "https://drive.google.com/file/d/1lakWzh1L7hs6QgRJ8HAnGpyBwrwpusRU/view?usp=sharing")
+        "https://drive.google.com/file/d/1aljfEZUanGETQtjwXnPLArSX2Zg16S-Q/view?usp=sharing")
     );
   }
   
@@ -90,6 +90,6 @@ $(document).ready(function () {
   function openDrive2() {
     window.open(
       (href =
-        "https://drive.google.com/file/d/1lakWzh1L7hs6QgRJ8HAnGpyBwrwpusRU/view?usp=sharing")
+        "https://drive.google.com/file/d/1aljfEZUanGETQtjwXnPLArSX2Zg16S-Q/view?usp=sharing")
     );
   }
