@@ -393,107 +393,66 @@ section .title::after {
 }
 
 /* skills section styling */
-.skills-card img {
-  height: 130px;
-  width: 150px;
-  /* object-fit: cover; */
-  border-radius: 5%;
-  /* border: 5px solid crimson; */
-  transition: all 0.3s ease;
-  
+.skills  .title::after{
+  content: "what i know";
+  background: #e5ecf0;
 }
 
+/* #skills{
+  background: #e5ecf0;
+} */
 
-/* skills right column */
-.skills .skills-content .column {
-  width: calc(50% - 30px);
-  /* border: 2px solid black; */
-  height: 60vh;
+#skills-part{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.skills .skills-content .left .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.skills .skills-content .left p {
-  text-align: justify;
-}
-
-.skills .skills-content .left a {
-  display: inline-block;
-  background: rgb(0, 204, 255);
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid rgb(0, 204, 255);
-  transition: all 0.3s ease;
-}
-
-.skills .skills-content .left a:hover {
-  color: rgb(0, 204, 255);
-  background: none;
-}
-
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
-}
-
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   align-items: center;
-  justify-content: space-between;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  
+
+}
+.skills-card{
+  /* background-color:skyblue; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background: var(--bg-color);
+  padding: 35px 25px;
+  border-radius: 8px;
+  transition: all .45s ease;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.skills-card-img i{
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
+.skills-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.skills-card p{
+  color: var(--second-color);
+ 
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 25px;
 }
 
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: rgb(0, 204, 255);
-  position: relative;
+
+.skills-card:hover{
+  transform: translateY(-8px);
+  cursor: pointer;
+
+  background-color: rgb(0, 204, 255);
 }
 
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgb(0, 204, 255);
-}
 
-.skills-content .right .html::before {
-  width: 90%;
-}
-
-.skills-content .right .css::before {
-  width: 60%;
-}
-
-.skills-content .right .js::before {
-  width: 80%;
-}
-
-.skills-content .right .php::before {
-  width: 50%;
-}
-
-.skills-content .right .mysql::before {
-  width: 70%;
-}
-
-/* project section styling */
 
 .project .carousel .project-card {
   background: #222;
@@ -630,11 +589,11 @@ section .title::after {
   background: rgb(0, 204, 255) !important;
 }
 
-.skills-card {
+/* .skills-card {
   width: 120px;
   height: 120px;
   text-align: center;
-}
+} */
 
 .react-activity-calendar .title::before {
   width: 455px;
